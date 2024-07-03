@@ -318,6 +318,12 @@ main {
     .section_final {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section_final button {
+        width: 240px;
     }
     
 
