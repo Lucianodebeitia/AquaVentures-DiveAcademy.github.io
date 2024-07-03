@@ -1,0 +1,325 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    scroll-behavior: smooth; /* Smooth scroll behavior */
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.name_page {
+    font-family: "kanit";
+    color: white;
+}
+
+nav {
+   width: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+nav button {
+    width: 8rem;
+    height: 2.2rem;
+    border-radius: 0.3rem;
+    /* border: none; */
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.btn_header-1 {
+    background-color: white;
+    
+}
+
+.btn_header-1:hover {
+    background-color: rgb(9, 182, 182);
+    color: white;
+}
+
+.btn_header-2 {
+    background-color: rgb(9, 182, 182);
+    color: white;
+    
+}
+
+.btn_header-2:hover {
+    background-color: white;
+    color: black;
+}
+
+span {
+    color: rgb(9, 182, 182);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(imgs/portada_buceo.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main {
+  display: flex;
+}
+
+.part-1 {
+    width: 60%;
+    height: 100vh;
+    background-image: url(imgs/img-buceo-card.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 20px; */
+}
+
+.part-2 {
+    background-color: black;
+    width: 40%;
+    height: 100vh;
+    /* border-radius: 10px; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* text-align: center; */
+    padding: 0 20px;
+}
+
+.part-2 h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+
+.part-2 p {
+    color: white;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+
+
+.btn_main {
+    background-color: rgb(9, 182, 182);
+    color: white;
+    width: 14rem;
+    height: 2.2rem;
+    border-radius: 0.3rem;
+    /* border: none; */
+    font-family: cursive;
+    cursor: pointer;
+    margin: 20px 0 ;
+    font-size: 1.2rem;
+}
+
+.btn_main:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/* .section_final {
+    width: 100%;
+    height: 100vh;
+    background-color: #252525;
+    display: flex;
+    text-align: center;
+} */
+
+.section_final {
+    background-color: black;
+    display: flex;
+    padding: 90px 0;
+}
+
+
+.section_final h3 {
+    color: white;
+    font-family: "kanit";
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section_final p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    width: 100%;
+}
+
+#actividad {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#actividad h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* flex-direction: column; */
+    width: 50%;
+    align-items: center;
+    /* border: dashed white; */
+}
+
+.final_part1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: dashed white; */
+    text-align: center;
+    gap: 30px;
+}
+
+
+
+.photo {
+    /* flex: 1 1 calc(25% - 20px); */
+    /* max-width: calc(25% - 20px); */
+    width: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.photo p {
+    font-family: cursive;
+    font-size: 0.9rem;
+}
+
+.photo img.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.photo img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.photo-gallery button {
+    background-color: rgb(9, 182, 182);
+    color: white;
+    width: 14rem;
+    height: 2.2rem;
+    border-radius: 0.3rem;
+    /* border: none; */
+    font-family: cursive;
+    cursor: pointer;
+    margin: 20px 0 ;
+    font-size: 1.2rem;
+}
+
+/* #span-coral {
+    color: coral;
+} */
+
+.section_final span:nth-child(odd) {
+    color: rgb(9, 182, 182);
+}
+
+.section_final span:nth-child(even) {
+    color: coral;
+}
+
+#pics_mobile {
+    display: none;
+    
+}
+
+
+
+@media (max-width: 600px) {
+
+
+    
+
+    h1 {
+        font-size: 20px;
+        width: 100%;
+    }
+  
+    nav {
+        display: none;
+    }
+ 
+    main {
+        flex-direction: column;
+        height: 142vh;
+    }
+     
+    .part-1 {
+        width: 100%;
+    }
+
+    .part-2 {
+        width: 90%;
+        height: 190vh;
+    }
+    
+    #pics_mobile {
+        display: flex;
+    }
+    
+    .photo-gallery #none {
+        display: none;
+    }
+
+
+    .final_part1 {
+        width: 100%;
+    }
+
+    .final_part1 p {
+      width: 70%;
+    }
+    
+    
+
+    .photo img {
+        width: 60%;
+    }
+
+    .section_final {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
