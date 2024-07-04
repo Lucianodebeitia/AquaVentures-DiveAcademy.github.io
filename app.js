@@ -29,3 +29,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // ! Realizamos la lista de destinos para que el usuario interactue.
+
+    const btnSend = document.querySelector('.deleteAll-btn')
+
+    const btnEnviar = () => {
+    alert ('Destiny send')
+    }
+
+    btnSend.addEventListener('click', btnEnviar);
+
+
+    

@@ -262,6 +262,127 @@ main {
     
 }
 
+footer {
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.944);
+    display: flex;
+}
+
+.box_networks-tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.box_networks-tittle img {
+    width: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.90 ease;
+}
+
+.box_networks-tittle img:hover {
+    transform: scale(1.2);
+}
+
+.box_networks-tittle h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    /* border: dashed; */
+    width: 80%;
+    text-align: center;
+}
+
+.form-destinity h4 {
+    color: white;
+    font-family: "kanit";
+    margin: 0;
+}
+
+.box_networks {
+    display: flex;
+    /* border: dashed; */
+    width: 80%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-destinity {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-destinity input {
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.list-destiny form {
+    display: flex;
+    gap: 20px;
+    /* flex-direction: column; */
+    /* border: dashed white; */
+}
+
+.add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124%;
+    /* border: dashed white; */
+}
+
+.add-form button {
+    background-color: coral;
+    border-radius: 8px;
+    color: white;
+    height: 30px;
+    border: none;
+    font-family: cursive;
+}
+
+.btn_send_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.deleteAll-btn {
+    background-color: rgb(9, 182, 182);
+    color: white;
+    width: 7rem;
+    height: 1.9rem;
+    border-radius: 0.3rem;
+    /* border: none; */
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sec_copyrigth {
+    height: 10vh;
+    background-color: rgb(9, 182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "kanit";
+    color: white;
+    font-size: 1.1rem;
+}
+
 
 
 @media (max-width: 600px) {
@@ -323,13 +444,55 @@ main {
     }
 
     .section_final p {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        width: 56%;
+        font-family:monospace;
+        width: 66%;
     }
 
     .section_final button {
         width: 240px;
     }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+        gap: 0;
+    }
+
+    .box_networks-tittle {
+       order: 2;
+       height: 100%;
+       margin: 0;
+    }
+
+    .form-destinity {
+        order: 1;
+        height: 100%;
+        text-align: center;
+    }
+
+    .add-form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .add-form button {
+        color: white;
+    width: 14rem;
+    height: 1.9rem;
+    border-radius: 0.3rem;
+    /* border: none; */
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 1rem;
+    }
+
+    .deleteAll-btn {
+        width: 14rem;
+    }
+
+
     
 
 }
