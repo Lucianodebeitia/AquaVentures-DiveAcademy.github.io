@@ -6,13 +6,21 @@
     <title>AquaVentures Dive Academy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icons/icons8-a-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header id="home">
         <h1 class="name_page">Aqua<span>Ventures</span> Dive Academy</h1>
-        <nav>
-         <button class="btn_header-1">ABOUT US</button>
-         <button class="btn_header-2">JOIN</button>
+        <nav class="navbar">
+          <input type="checkbox" id="toggle-menu" class="bars-menu">
+          <label for="toggle-menu" class="toggle-label">
+              <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-times"></i>
+          </label>
+          <ul class="navbar-list">
+              <li><button class="btn_header-1">ABOUT US</button></li>
+              <li><button class="btn_header-2">JOIN</button></li>
+          </ul>
         </nav>
     </header>
     <!-- ? Comienza el main y todo su contenido.  -->
