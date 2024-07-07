@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     window.addEventListener('scroll', showImages);
-    showImages(); // Para que funcione al cargar la página
+    showImages(); 
 });
 
 

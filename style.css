@@ -603,6 +603,10 @@ li {
     .part-2 {
         width: 91.7%;
     }
+
+    nav button {
+        font-family: "kanit";
+    }
     
 
 }
