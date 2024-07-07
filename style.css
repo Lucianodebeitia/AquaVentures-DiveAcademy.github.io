@@ -240,7 +240,7 @@ main {
     height: 2.2rem;
     border-radius: 0.3rem;
     /* border: none; */
-    font-family: cursive;
+    font-family: "kanit";
     cursor: pointer;
     margin: 20px 0 ;
     font-size: 1.2rem;
@@ -368,7 +368,7 @@ footer {
     height: 1.9rem;
     border-radius: 0.3rem;
     /* border: none; */
-    font-family: cursive;
+    font-family: "kanit";
     cursor: pointer;
     font-size: 1rem;
 }
@@ -547,8 +547,9 @@ li {
     }
 
     .section_final p {
-        font-family:monospace;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
         width: 66%;
+        /* font-size: 0.9rem; */
     }
 
     .section_final button {
@@ -573,6 +574,10 @@ li {
         order: 1;
         height: 100%;
         text-align: center;
+    }
+
+    .form-destinity input {
+        font-family: "kanit";
     }
 
     .add-form {
